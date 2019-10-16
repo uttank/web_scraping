@@ -16,4 +16,3 @@ def download(url, user_agent='wswp', num_retries=2):
     return html
 
 html = download('http://physics.snu.ac.kr')
-print (html)
